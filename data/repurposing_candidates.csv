@@ -1,0 +1,21 @@
+Drug,DrugBank_ID,Approval_Status,Original_Indication,Malaria_Mechanism,pChEMBL,Cost_INR,NLEM,Repurpose_Score
+Artemether-Lumefantrine,DB06708,Approved,Malaria,Heme alkylation,9.0,150,Yes,0.98
+Artesunate,DB06403,Approved,Malaria,Heme alkylation + ROS,9.2,100,Yes,0.98
+Chloroquine,DB00608,Approved,Malaria,Heme polymerization,8.5,30,Yes,0.70
+Primaquine,DB01087,Approved,Malaria,Radical cure P.vivax,8.0,50,Yes,0.90
+Mefloquine,DB00358,Approved,Malaria,Multiple,8.2,200,Yes,0.75
+Doxycycline,DB00254,Approved,Infection,Apicoplast protein,8.0,50,Yes,0.85
+Azithromycin,DB00207,Approved,Infection,Apicoplast ribosome,7.5,100,Yes,0.75
+Methylene_Blue,DB09241,Approved,Methemoglobin,Gametocyte killing,7.0,50,Yes,0.80
+N-Acetylcysteine,DB06151,Approved,Mucolytic,Antioxidant ROS,5.5,200,Yes,0.85
+Vitamin_E,DB00163,Approved,Deficiency,RBC membrane protection,4.0,100,Yes,0.75
+Pentoxifylline,DB00806,Approved,Claudication,Anti-TNF rheology,6.2,150,Yes,0.70
+L-Arginine,DB00125,Approved,Supplement,NO donor,5.0,200,Yes,0.75
+Deferoxamine,DB00746,Approved,Iron overload,Iron chelation,7.0,5000,No,0.60
+Rosiglitazone,DB00412,Approved,Diabetes,PPAR-gamma anti-inflam,8.2,300,No,0.65
+Atorvastatin,DB01076,Approved,Hyperlipidemia,Endothelial protection,8.5,100,Yes,0.80
+Heparin,DB01109,Approved,Anticoagulation,Anti-rosetting,6.0,500,Yes,0.70
+Erythropoietin,DB00016,Approved,Anemia,RBC recovery,8.0,2000,No,0.65
+Ibuprofen,DB01050,Approved,Pain,Anti-inflammatory,7.5,20,Yes,0.72
+Zinc,DB14533,Approved,Supplement,Immune support,4.0,50,Yes,0.80
+Folic_acid,DB00158,Approved,Supplement,RBC production,4.0,20,Yes,0.75

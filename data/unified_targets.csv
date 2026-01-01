@@ -1,0 +1,36 @@
+Target,Symbol,Module,Category,PubMed_Count,Druggability,Description,Drug_Example
+PfDHFR-TS,DHFR-TS,pathogen,folate,850,High,Dihydrofolate reductase,Pyrimethamine
+PfDHPS,DHPS,pathogen,folate,620,High,Dihydropteroate synthase,Sulfadoxine
+PfATP4,ATP4,pathogen,ion_transport,480,High,P-type Na+ ATPase,Cipargamin
+PfPI4K,PI4K,pathogen,signaling,420,High,Phosphatidylinositol-4-kinase,MMV390048
+PfCYTB,CYTB,pathogen,mitochondrial,580,High,Cytochrome b,Atovaquone
+PfPKG,PKG,pathogen,signaling,380,High,Protein kinase G,ML10
+PfNMT,NMT,pathogen,protein_mod,320,High,N-myristoyltransferase,DDD85646
+PfHsp90,HSP90,pathogen,chaperone,450,High,Heat shock protein 90,Geldanamycin
+PfPlasmepsin,PM,pathogen,aspartic,520,High,Hemoglobin digestion,PIV
+PfFalcipain,FP,pathogen,cysteine,480,High,Hemoglobin digestion,E64d
+PfAQP,AQP,pathogen,transport,220,Moderate,Aquaporin,Auphen
+PfHDP,HDP,pathogen,heme,380,High,Heme detoxification protein,Artemisinin
+TNF,TNF,host,inflammation,1250,High,Tumor necrosis factor,Etanercept
+IL6,IL6,host,inflammation,980,High,Interleukin-6,Tocilizumab
+IL1B,IL1B,host,inflammation,720,High,Interleukin-1 beta,Anakinra
+IFNG,IFNG,host,th1_response,850,High,Interferon gamma,IFN-gamma
+ANGPT2,ANGPT2,host,endothelial,520,High,Angiopoietin-2,Anti-Ang2
+VCAM1,VCAM1,host,adhesion,420,High,Vascular cell adhesion,Natalizumab
+ICAM1,ICAM1,host,adhesion,580,High,Intercellular adhesion,mAb
+HMOX1,HMOX1,host,heme,650,High,Heme oxygenase-1,CoPP
+NOS2,NOS2,host,nitric_oxide,720,High,Inducible NOS,L-NMMA
+HIF1A,HIF1A,host,hypoxia,850,High,Hypoxia factor,DMOG
+TLR4,TLR4,host,innate,650,High,Toll-like receptor 4,TAK-242
+TLR9,TLR9,host,innate,420,High,TLR9 hemozoin sensing,CpG ODN
+NLRP3,NLRP3,host,inflammasome,520,High,Inflammasome,MCC950
+CASP1,CASP1,host,inflammasome,420,High,Caspase-1,VX-765
+EPO,EPO,host,erythropoiesis,580,High,Erythropoietin,EPO
+GATA1,GATA1,host,erythropoiesis,380,Moderate,Erythroid TF,N/A
+FTH1,FTH1,host,iron,380,Moderate,Ferritin heavy chain,Iron chelator
+HAMP,HAMP,host,iron,320,Moderate,Hepcidin,Mini-hepcidin
+CD36,CD36,host,phagocytosis,420,High,Scavenger receptor,Anti-CD36
+EPCR,PROCR,host,coagulation,380,High,Endothelial protein C,APC
+VWF,VWF,host,coagulation,450,High,von Willebrand factor,Caplacizumab
+ADAMTS13,ADAMTS13,host,coagulation,280,Moderate,VWF cleaving,rADAMTS13
+NRF2,NFE2L2,host,oxidative,520,High,Antioxidant TF,Bardoxolone

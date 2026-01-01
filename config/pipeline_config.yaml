@@ -1,0 +1,61 @@
+# Malaria Multi-Modal Drug Discovery Pipeline Configuration
+# Combining 5 Discovery Approaches for Comprehensive Malaria Therapeutics
+
+project:
+  name: "Malaria_MultiModal_Discovery"
+  version: "1.0.0"
+  author: "Siddalingaiah H S"
+  email: "hssling@yahoo.com"
+  orcid: "0000-0002-4771-8285"
+  institution: "SIMS Tumkur, Karnataka"
+
+disease:
+  name: "Malaria"
+  pathogen: "Plasmodium falciparum / P. vivax"
+  icd10: "B50-B54"
+  global_burden: "249M cases, 608K deaths (2022)"
+  india_burden: "~3M cases annually, endemic in Odisha, NE states"
+  drug_resistance: "Artemisinin resistance emerging in SE Asia"
+
+modules:
+  pathogen_directed:
+    enabled: true
+    weight: 0.25
+    focus: "Plasmodium essential genes and drug targets"
+    sources: ["ChEMBL", "PlasmoDB", "Malaria Drug Atlas"]
+    
+  host_directed:
+    enabled: true
+    weight: 0.25  
+    focus: "Host inflammation, RBC protection, endothelium"
+    sources: ["GEO", "Open Targets", "Literature"]
+    
+  repurposing:
+    enabled: true
+    weight: 0.20
+    focus: "Approved drugs for malaria indication"
+    sources: ["DrugBank", "MMV", "NLEM India"]
+    
+  network:
+    enabled: true
+    weight: 0.15
+    focus: "Host-parasite interactome"
+    sources: ["STRING", "IntAct", "HPIDB"]
+    
+  ai_integration:
+    enabled: true
+    weight: 0.15
+    focus: "Multi-omics ensemble scoring"
+    methods: ["RF", "XGBoost", "Ensemble"]
+
+clinical_syndromes:
+  uncomplicated: "Fever, chills, parasitemia"
+  severe: "Cerebral malaria, severe anemia, ARDS"
+  pregnancy: "Placental malaria, LBW, anemia"
+  vivax: "Relapsing infection from liver hypnozoites"
+
+output:
+  figures: 8
+  tables: 5
+  manuscript_words: 3000
+  references: 35
